@@ -42,6 +42,9 @@ select {
 
 .temporal {
     margin-right: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
 }
 
 .descripcion-header {
@@ -49,6 +52,29 @@ select {
     flex-direction: column;
     height: 50%;
     justify-content: center;
+}
+
+.boton-rojo {
+    background-color: red;
+    border-color: transparent;
+    border-radius: 30%;
+    display: flex;
+    height: 30px;
+    width: 100px;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 3px;
+}
+
+.boton-gris {
+    background-color: gray;
+    opacity: 3;
+    border-color: transparent;
+    border-radius: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 3px;
 }
 
 h1, p {
