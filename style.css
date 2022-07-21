@@ -5,6 +5,8 @@
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), 
     url(assets/silent-voice.jpg);
     background-size: cover;
+    padding: 30px;
+    box-sizing: border-box;
     /* background-blend-mode: saturation; */
 }
 
@@ -27,6 +29,11 @@ select {
     height: 2rem;
     background-color: transparent;
     border-color: transparent;
+}
+
+.main {
+    padding: 30px;
+    box-sizing: border-box;
 }
 
 .boton-header {
@@ -110,12 +117,18 @@ h1, p {
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: row; */
-    justify-content: space-around;
+    justify-content: space-between;
+    max-width: 1200px;
 }
 
 .enlaces-header {
     max-width: 100%;
     font-weight: bold;
+}
+
+footer {
+    padding: 30px;
+    box-sizing: border-box;
 }
 
 a {
