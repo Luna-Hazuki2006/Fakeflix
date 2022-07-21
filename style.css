@@ -92,10 +92,24 @@ h1, p {
     justify-content: space-around;
 }
 
+.iconos-footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 6px;
+}
+
 .imagen {
     object-fit: contain;
+    border-radius: 4px;
     width: 320px;
     transition: all 0.5s ease-in-out;
+}
+
+.imagen-footer {
+    width: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
 }
 
 .imagen:hover {
