@@ -83,3 +83,16 @@ h1, p {
     max-width: 50%;
     color: white;
 }
+
+
+.contenedor {
+    display: grid;
+}
+
+.imagen {
+    transition: ease-in-out;
+}
+
+.imagen:hover {
+
+}
