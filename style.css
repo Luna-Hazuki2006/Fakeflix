@@ -16,6 +16,7 @@
 .caja-header {
     display: flex;
     align-items: center;
+    gap: 30px;
 }
 
 body {
@@ -110,6 +111,14 @@ h1, p {
     flex-wrap: wrap;
     /* flex-direction: row; */
     justify-content: space-around;
+}
+
+.enlaces-header {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
 }
 
 .texto-footer {
