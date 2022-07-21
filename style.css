@@ -86,13 +86,18 @@ h1, p {
 
 
 .contenedor {
-    display: grid;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .imagen {
-    transition: ease-in-out;
+    object-fit: contain;
+    width: 320px;
+    transition: all 0.5s ease-in-out;
 }
 
 .imagen:hover {
-
+    transform: scale(1.2);
 }
