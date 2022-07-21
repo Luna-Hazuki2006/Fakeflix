@@ -84,7 +84,6 @@ h1, p {
     color: white;
 }
 
-
 .contenedor {
     display: flex;
     gap: 30px;
@@ -93,11 +92,10 @@ h1, p {
 }
 
 .iconos-footer {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
     display: flex;
     flex-direction: row;
     justify-content: left;
-    gap: 6px;
+    gap: 20px;
 }
 
 .imagen {
@@ -107,9 +105,23 @@ h1, p {
     transition: all 0.5s ease-in-out;
 }
 
+.contenedor-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.enlaces-footer {
+    
+}
+
+.texto-footer {
+    color: gray;
+    max-width: 100%;
+}
+
 .imagen-footer {
     width: 30px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
 }
 
 .imagen:hover {
