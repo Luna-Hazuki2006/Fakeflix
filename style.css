@@ -115,6 +115,7 @@ h1, p {
 
 .enlaces-header {
     max-width: 100%;
+    font-weight: bold;
 }
 
 a {
