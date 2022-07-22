@@ -93,6 +93,7 @@ select {
 }
 
 h1, p {
+    font-family: 'Oxygen', sans-serif;
     max-width: 50%;
     color: white;
 }
