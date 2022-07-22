@@ -7,11 +7,18 @@
     background-size: cover;
     padding: 30px;
     box-sizing: border-box;
+    background-position: top;
     /* background-blend-mode: saturation; */
 }
 
-.logo {
+.logoa {
+    width: 30px;
+    display: none;
+}
+
+.logob {
     width: 200px;
+    display: none;
 }
 
 .separaciones-header {
@@ -27,6 +34,8 @@
 
 body {
     background-color: black;
+    padding: 0;
+    margin: 0;
 }
 
 select {
@@ -53,18 +62,19 @@ select {
 }
 
 .temporal {
-    margin-right: 50%;
+    margin-right: 0%;
     display: flex;
     flex-direction: row;
     justify-content: left;
 }
 
 .descripcion-header {
-    padding-top: 8%;
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
     height: 50%;
     justify-content: center;
+    align-items: center;
 }
 
 .boton-rojo {
@@ -94,8 +104,12 @@ select {
 
 h1, p {
     font-family: 'Oxygen', sans-serif;
-    max-width: 50%;
+    max-width: 100%;
     color: white;
+}
+
+.titulos {
+    text-align: center;
 }
 
 .contenedor {
@@ -103,12 +117,13 @@ h1, p {
     gap: 30px;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 100px;
 }
 
 .iconos-footer {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -123,8 +138,11 @@ h1, p {
     display: flex;
     flex-wrap: wrap;
     /* flex-direction: row; */
+    flex-direction: column;
     justify-content: space-between;
     max-width: 1200px;
+    align-items: center;
+    text-align: center;
 }
 
 .enlaces-header {
@@ -152,4 +170,67 @@ a {
 
 .imagen:hover {
     transform: scale(1.2);
+}
+
+.logoa {
+    display: block;
+    /* background-image: url(assets/Logo.png); */
+}
+.enlaces-header {
+    display: none;
+}
+
+.codigo {
+    
+}
+
+@media screen and (min-width: 481px) {
+    .logob {
+        display: none;
+    }
+
+    .logoa {
+        display: block;
+        /* background-image: url(assets/favicon.png); */
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .enlaces-header {
+        display: block;
+    }
+
+    .logoa  {
+        display: none;
+    }
+
+    .logob {
+        display: block;
+    }
+
+    .descripcion-header {
+        align-items: flex-start;
+        padding-top: 8%;
+    }
+
+    .temporal {
+        margin-right: 50%;
+    }
+
+    .iconos-footer {
+        justify-content: left;
+    }
+
+    .contenedor-footer {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .titulos {
+        text-align: left;
+    }
+
+    h1, p {
+        max-width: 50%;
+    }
 }
